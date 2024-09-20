@@ -1,35 +1,31 @@
 .gallery{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
+    text-align: center;
 }
 
 .info_container{
     float: left;
     width: 300px;
-    height:200px;
+    height: 200px;
     margin: 10px;
     padding: 10px;
-    border: 5px solid chartreuse;
-    background-color: aquamarine;
-    box-sizing: border-box; /* Include padding and border in the width */
-
+    border: 5px solid blue;
+    background-color: aqua;
 }
 
 .image_container{
     width: 100%;
     height: 100%;
-    margin-bottom:10px;
 }
+
 .image_container img{
     width: 100%;
     height: 100%;
 }
 .text_container{
     width: 100%;
-    margin-top:10px;
-    color: rgba(8, 82, 47, 0.862);
+    margin-top: 10px;
 }
+
 .info_container:hover img{
     transform: scale(1.1);
     transition: transform 0.5s ease;
